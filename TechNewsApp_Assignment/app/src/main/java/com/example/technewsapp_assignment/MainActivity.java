@@ -112,7 +112,7 @@ public class MainActivity extends AppCompatActivity {
 
             // --- COMMENTED CODE START ---
 
-            for(int i=0;i<10;i++) {
+            for(int i=0;i<20;i++) {
                 db.execSQL("INSERT INTO articles(article_id,article_title,article_url) " +
 //                        "VALUES('testing','testing','testing');");
                         "VALUES('" + keys[i] +"','" + titleArray[i] +"','" + URLArray[i] +"');");
